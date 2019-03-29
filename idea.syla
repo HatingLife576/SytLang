@@ -1,0 +1,34 @@
+syt.head{
+    title/"Website"/
+    link.Style{"./style.systy"}
+    link.Script{"./app.js"}
+    link.Script{"./app.py"}
+}
+
+syt{
+    divi.Class=/outer/{
+        divi.Class=/banner/{
+            para.h1.Class=/title/{
+                "Welcome!"
+            }
+            para.h3.Class=/subtitle/{
+                "This is my site made with SytLang"
+            }
+        }
+        divi.Class=/aboutMe/{
+            para.h1{
+                "About the Creator of SytLang"
+            }
+            para{
+                "Safyre Lyons, also known by her programming alias 5LT is an American teenager who likes to code and does it a lot. She makes sure her work does what it is meant to do, and wants to remake the world of websites. She sees HTML as a bad language by design. By design HTML looks bad in code as the end tags are the tags but with a / at the beginning. She does not like that, so she remade the language and called it SytLang. She even redid CSS for the sake of fun and named it SytStyl, but that is not expected to release as she likes CSS."
+            }
+        }
+        divi.Class=/contactMe/{
+            form.text{
+                getText{
+                    placeholder=/"WouldYouLikeToJoin, [Y/N]"/
+                }
+            }
+        }
+    }
+}
