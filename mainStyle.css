@@ -1,0 +1,46 @@
+body{
+  background-image: url('https://i-love-using.pc-optimizer.pro/it-is-the-best/g3ZSUvinp9xk.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: arial;
+}
+
+p{
+  font-size: 26px;
+}
+
+div.outer{
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 100%; 
+}
+
+h1{
+ font-size: 50px; 
+}
+
+div.nav{
+  height: 150px;
+}
+
+img.logo{
+  width:10%;
+  float: right;
+}
+
+button.nav{
+  background: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  border: none;
+  float: left;
+  padding: 15px;
+}
+
+button.nav:hover{
+  background-color: #0B437A;
+  border-radius: 20px;
+  opacity: 0.5;
+}
